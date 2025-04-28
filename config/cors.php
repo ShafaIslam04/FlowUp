@@ -18,8 +18,9 @@ return [
     'paths' => ['*'],
 
     'allowed_methods' => ['*'],
+    'credentials' => true,
 
-    'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:3000')],
+    'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:3000'),'http://flowup.test'],
 
     'allowed_origins_patterns' => [],
 
